@@ -7,18 +7,18 @@ Evento deportivo → Coliseo */
 
 
  class  Concierto  {
-    evento: string
-    locacion: string;
+    evento: "Concierto";
+    locacion: string
 }
 
 class ObraDeTeatro {
-    evento: string;
-    locacion: string;
+    evento: "Obra de Teatro";
+    locacion: string
 }
 
 class EventoDeportivo  {
-    evento: string;
-    locacion: string;
+    evento: "Evento Deportivo";
+    locacion: string
 }
 type Evento = Concierto | ObraDeTeatro | EventoDeportivo;
 
@@ -32,7 +32,7 @@ const EventoObraDeTeatro: Evento = {
   locacion: "Foro"
 }
 const EventoDeportes: Evento = {
-  evento: "Evento Deportivo",
+    evento: "Evento Deportivo",
     locacion: "Coliseo "
 }
 
@@ -46,7 +46,6 @@ function seleccionarEvento(nuevoEvento: Evento):string {
        return (`La locación para esta ${nuevoEvento.evento} es en el ${nuevoEvento.locacion}`)
     case  "Evento Deportivo":
       return (`La locación para este  ${nuevoEvento.evento} es en el ${nuevoEvento.locacion}`)
-  
    }
 }
 
