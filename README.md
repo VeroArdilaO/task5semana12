@@ -5,6 +5,8 @@
 Se realizaron dos ejercicios, correspondientes a la task 5 de la semana 12 del programa BeeSoft Labs,sobre programación orientada a 
 objetos, temas unión de tipos, intersección de tipos, tipos literales, alias de tipos y uniones discriminadas.
 
+link del solución del código stackblitz.com/edit/task5semana12
+
 ### Enunciados
 
 1. Define una función que reciba como parámetro cualquiera de las siguientes clases de eventos("concierto", "obra de teatro", "Evento deportivo") y devuelva la locación para este evento
